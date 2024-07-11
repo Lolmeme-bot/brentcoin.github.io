@@ -4,7 +4,7 @@ window.onload = function(
   const redirectUrlIfValueFound = "/main/main.html";
   const redirectUrlIfValueNotFound = "/main/notfound.html";
 
-  document.getElementById("emoji").innerHTML = "🎉";
+  
 
   setTimeout(function(
 ) {
