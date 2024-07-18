@@ -1,25 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HTML</title>
+<style>
+    body {
+      font-size: 15pt;
+      display: block;
+      font-family: Roboto;
+      background: black;
+    }
 
-  <title>HTML</title>
-  
-  <!-- HTML -->
-  
+    .balancelabel {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      color: white;
+      background: black;
+      border: solid lawngreen 2px;
+      width: 339px;
+      height: 50px;
+      border-radius: 20px;
+    }
 
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css">
+    #Brentbalance {
+      background: black;
+      width: 339px;
+      height: 50px;
+      border-radius: 20px;
+    }
+
+    #brentimage {
+      width: 250px;
+      height: 250px;
+      border-radius: 90%;
+      border: dotted 2px lawngreen;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    #group {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #diggs {
+      width: 339px;
+      height: 50px;
+      border: solid lawngreen 2px;
+      border-radius: 20px;
+      background: black;
+      color: white;
+    }
+
+    #convert {
+      width: 80px;
+      height: 50px;
+      border: solid lawngreen 2px;
+      border-radius: 20px;
+      background: black;
+      color: white;
+    }
+    .gg{
+      width :110px;
+      height :40px;
+      background: lawngreen;
+      color : black ;
+    }
+    #startfarming{
+      height: 60px;
+    }
+    h4{
+      color: lawngreen;
+      text-align: center;
+    }
+  </style>
 </head>
-
 <body>
-  
-     <div id="emoji"></div><br>
-          
+<br>
+<br>
+<b><button id="Brentbalance" class="balancelabel">$brent:0.00000</button></b>
+<br>
+<div id="group">
 
-  <!-- Project -->
-  <script src="main.js"></script>
+<button id="diggs">diggs:</button>
+</div>
+<br>
+<img id="brentimage" src="/IMG-20240715-WA0006.jpg" alt="/IMG-20240715-WA0006.jpg">
+<br>
+
+<br>
+<br>
+<br>
+<button id="startfarming" class="balancelabel">start farming </button>
+<div id="group">
+  <br>
+  <br>
+  
+  
+  
+  <a href="/home.html"><button id="home" class="gg"> Home</button></a>
+<a href="/task.html"><button id="task" class="gg">Task </button></a>
+ <a href="/invite.html"><button id="invite" class="gg">invite </button></a>
+</div>
 </body>
 </html>
